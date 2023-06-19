@@ -335,5 +335,30 @@ footer a {
     font-size: 90%;
   }
 }
-@media screen and (max-width: 768) {
+@media screen and (min-width: 576px), (max-width: 768px) {
+  h1 {
+    display: inline-block;
+    max-width: 60%;
+    font-size: 3.5rem;
+  }
+  table {
+    margin: 7% auto;
+    width: 70%;
+  }
+  section h2 {
+    width: 95%;
+    margin: 3% auto;
+  }
+  section p {
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+  input {
+    width: 80%;
+    padding: 2%;
+  }
+  button {
+    padding: 2%;
+    width: 15%;
+  }
 }
