@@ -237,7 +237,7 @@ footer a {
     font-size: 90%;
   }
   iframe {
-    max-height: 11vh;
+    height: 11vh;
   }
   section h2 {
     background-color: grey;
