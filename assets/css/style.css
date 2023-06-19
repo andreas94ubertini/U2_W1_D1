@@ -109,6 +109,16 @@ code {
   border: 1px solid #969494;
   border-radius: 5px;
 }
+#html-logo img {
+  width: 100%;
+  border: 3px solid aqua;
+}
+#html-logo {
+  border: 3px solid violet;
+  width: 50px;
+  height: 55px;
+  margin: 1.5%;
+}
 iframe {
   width: 100%;
   height: auto;
@@ -282,4 +292,48 @@ footer a {
     width: 55%;
     margin: 0 auto;
   }
+}
+@media screen and (min-width: 320px) {
+  body {
+    margin: 2% auto;
+    padding: 0;
+    width: 96%;
+    font-size: 99%;
+  }
+  header {
+    height: 17vh;
+    padding-top: 2%;
+  }
+  header img {
+    width: 50%;
+  }
+  header ul {
+    display: flex;
+    justify-content: center;
+  }
+  header ul li {
+    margin-right: 3%;
+  }
+  table {
+    max-width: 90%;
+  }
+  th {
+    font-size: 90%;
+  }
+  iframe {
+    max-height: 11vh;
+  }
+  section h2 {
+    background-color: grey;
+    margin: 4%;
+  }
+  input {
+    width: 45%;
+    font-size: 90%;
+  }
+  button {
+    font-size: 90%;
+  }
+}
+@media screen and (max-width: 768) {
 }
