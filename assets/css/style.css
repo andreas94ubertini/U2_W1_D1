@@ -364,3 +364,20 @@ footer a {
     margin: 0 auto;
   }
 }
+@media print {
+  * {
+    background-color: white;
+  }
+  iframe,
+  section,
+  header,
+  aside,
+  footer {
+    display: none;
+    box-shadow: none;
+    border: none;
+  }
+  main {
+    box-shadow: none;
+  }
+}
